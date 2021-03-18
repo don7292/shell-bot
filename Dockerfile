@@ -44,6 +44,7 @@ ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 RUN go get github.com/Jitendra7007/gdrive
+RUN pip3 install gdown
 #ytdl
 RUN pip3 install setuptools && \
 pip3 install https://github.com/yt-dlp/yt-dlp/archive/master.zip
