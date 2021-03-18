@@ -1,0 +1,8 @@
+{
+  "name": "shell-bot",
+  "description": "shell Docker",
+  "repository": "https://github.com/don7292/shell-bot",
+  "logo": "https://images.discordapp.net/avatars/282859044593598464/156a0d2872579f1ffcaa5d2127239bfd.png?size=512",
+  "keywords": ["docker", "shell"],
+  "stack": "container"
+}
